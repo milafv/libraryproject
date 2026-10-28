@@ -1,0 +1,64 @@
+
+.link1 {
+    background-color: #a8f3be;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.link2 {
+    background-color: #6c757d;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.link3 {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+/* تنسيق الروابط وألوانها حسب المطلوب */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* تنسيقات العناوين (Task 2 & 3) */
+.formatting-header {
+    background-color: #e2ecd9;
+    color: #2b580c;
+    padding: 15px;
+}
+
+.listing-header {
+    background-color: #5d9b9b;
+    color: white;
+    padding: 15px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}

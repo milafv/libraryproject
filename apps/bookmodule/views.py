@@ -38,3 +38,19 @@ def viewbook(request, bookId):
 
 def aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+
+# Task 1: Links
+def html5_links(request):
+    return render(request, 'bookmodule/html5_links.html')
+
+# Task 2: Text Formatting
+def html5_formatting(request):
+    return render(request, 'bookmodule/html5_formatting.html')
+
+# Task 3: Listing
+def html5_listing(request):
+    return render(request, 'bookmodule/html5_listing.html')
+
+# Task 4: Tables
+def html5_tables(request):
+    return render(request, 'bookmodule/html5_tables.html')
